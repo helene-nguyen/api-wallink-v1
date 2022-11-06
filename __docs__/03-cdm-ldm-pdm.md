@@ -8,7 +8,7 @@ A relationship represents an association among entities : for example, a user ca
 
 A relationship exists between the user and each article.
 
-<!-- ! IMAGE -->
+![CDM](media/wallink_CDM.jpg)
 
 ## General Purpose Modeling (or Logical Data Model / GPM or LDM)
 
@@ -17,7 +17,7 @@ Three well-known data models of this type are relational data models, network da
 
 We will use here the relationnal model that represents data as relations, or tables.
 
-<!-- ! IMAGE -->
+![LDM](media/wallink_LDM.jpg)
 
 ## Physical Data Model (PDM)
 
@@ -35,4 +35,4 @@ Using the workbench, you can create a physical data model in several ways:
 
 For PDM, we use the ERD Tool from pgAdmin4
 
-<!-- ! IMAGE -->
+![PDM](media/wallink_PDM.jpg)
