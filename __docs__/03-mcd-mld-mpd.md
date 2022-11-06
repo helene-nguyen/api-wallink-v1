@@ -8,6 +8,20 @@ A relationship represents an association among entities : for example, a user ca
 
 A relationship exists between the user and each article.
 
+We have made CDM with [Mocodo Online](https://www.mocodo.net/).
+
+```
+WRITE, 0N USER, 11 ARTICLE
+ARTICLE: code_article, title, link, starred, order
+BELONGS TO, 1N ARTICLE, 0N CATEGORY
+
+USER: code_user, username, email, password
+CREATE, 0N USER, 11 CATEGORY
+CATEGORY: code_category, name, color, order
+```
+
+Here, you can find our homemade design with Adobe Illustrator :
+
 <!-- ! IMAGE -->
 
 ## General Purpose Modeling (or Logical Data Model / GPM or LDM)
@@ -16,6 +30,30 @@ Record-based logical data models provide concepts users can understand but are n
 Three well-known data models of this type are relational data models, network data models and hierarchical data models.
 
 We will use here the relationnal model that represents data as relations, or tables.
+
+Details :
+
+```
+ARTICLE ( code_article, title, link, starred, order, #code_user )
+The item_code field is the primary key of the table. It was already an ID of the ARTICLE entity .
+The title , link , starred and order fields were already simple attributes of the ARTICLE entity .
+The code_user field is a foreign key. It migrated by the WRITE functional dependency association from the USER entity , losing its identifying character.
+
+BELONGS TO ( #code_article, #code_category )
+The item_code field is part of the primary key of the table. It is a foreign key that migrated directly from the ARTICLE entity .
+The code_category field is part of the table's primary key. It is a foreign key that migrated directly from the CATEGORY entity .
+
+CATEGORY ( code_category, name, color, order, #code_user )
+The code_category field is the primary key of the table. It was already an identifier of the CATEGORY entity .
+The name , color and order fields were already simple attributes of the CATEGORY entity .
+The code_user field is a foreign key. It migrated through the CREATE functional dependency association from the USER entity , losing its identifying character.
+
+USER ( code_user, username, email, password )
+The code_user field is the primary key of the table. It was already an identifier of the USER entity .
+The username , email and password fields were already simple attributes of the USER entity .
+```
+
+Here, you can find our homemade design with Adobe Illustrator :
 
 <!-- ! IMAGE -->
 
