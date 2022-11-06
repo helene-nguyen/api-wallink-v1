@@ -22,7 +22,7 @@ CATEGORY: code_category, name, color, order
 
 Here, you can find our homemade design with Adobe Illustrator :
 
-<!-- ! IMAGE -->
+![CDM](media/wallink_CDM.jpg)
 
 ## General Purpose Modeling (or Logical Data Model / GPM or LDM)
 
@@ -55,7 +55,7 @@ The username , email and password fields were already simple attributes of the U
 
 Here, you can find our homemade design with Adobe Illustrator :
 
-<!-- ! IMAGE -->
+![LDM](media/wallink_LDM.jpg)
 
 ## Physical Data Model (PDM)
 
@@ -73,4 +73,4 @@ Using the workbench, you can create a physical data model in several ways:
 
 For PDM, we use the ERD Tool from pgAdmin4
 
-<!-- ! IMAGE -->
+![PDM](media/wallink_PDM.jpg)

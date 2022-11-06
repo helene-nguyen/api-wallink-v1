@@ -35,4 +35,4 @@
 
 ---
 
-[Previous](./01-brainstorming.md) | [Home](../README.md) | [Next](./03-mcd-mld-mpd.md)
+[Previous](./01-brainstorming.md) | [Home](../README.md) | [Next](./03-cdm-ldm-pdm.md)
