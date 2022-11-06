@@ -47,6 +47,10 @@ The idea of this application comes because who doesn't add a favourite link in a
 
 For us, so many. This simple app was first for us, and hope that it will be useful for you !
 
+For the details of all of our project, you can switch on "documentation" branch name.
+
+![branch](./__media__/wallink-branch.png)
+
 ## How to launch the application ?
 
 First, clone the repository
