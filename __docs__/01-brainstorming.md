@@ -32,4 +32,4 @@ And here we are ! After 1 hour of talking and drawing on [tl;draw](https://www.t
 
 ---
 
-[Previous](./00-summary.md) | [Home](../README.md) | [Next](./)
+[Previous](./00-summary.md) | [Home](../README.md) | [Next](./02-usecases.md)
